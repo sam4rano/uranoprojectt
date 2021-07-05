@@ -227,7 +227,7 @@
 /*section*/
 .footer {
     background-color: #0b162b;
-    height: 500px;
+    height: auto;
     padding: 30px;
 }
 h1,h3,h5, .fftext {
@@ -322,7 +322,8 @@ h1,h3,h5, .fftext {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-bottom:900px ;
+        padding-top: 350px;
+        padding-bottom:350px ;
     }
     .combined-shape {
         width:200px;
@@ -382,7 +383,7 @@ h1,h3,h5, .fftext {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-bottom:750px ;
+        padding-bottom:400px ;
     }
     .platformimg {
         display: flex;
@@ -412,6 +413,12 @@ h1,h3,h5, .fftext {
         align-items: center;
         justify-content: space-between;
     }
+    .fcontent-1 {
+        padding: 10px;
+    }
+    .fcontent-1 h5 {
+        font-size: 12px;
+    }
 }
 @media screen and (min-width: 480px) {
   .header {
@@ -422,7 +429,7 @@ h1,h3,h5, .fftext {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-bottom:700px ;
+        padding-bottom:350px ;
     }
     .platformimg {
         display: flex;
