@@ -198,6 +198,7 @@
 }
 .combined-shape {
     width:300px;
+    margin-bottom: 15px;
 }
 .imgtex {
     display: grid;
@@ -205,6 +206,14 @@
     grid-template-rows: 50% 50%;
     gap: 10px;
 }
+.titlemon{
+    color: black;
+    padding: 5px;
+    font-size: 20px;
+}
+.nunc-porta3 {
+    font-size: 15px;
+} 
 /*section*/
 .footer {
     background-color: #0b162b;
